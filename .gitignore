@@ -1,0 +1,42 @@
+# Ignore Perl build and test files
+*.o
+*.bs
+*.def
+
+# Ignore Perl module build artifacts
+/META.yml
+/META.json
+/Makefile
+/Build
+/Build.bat
+/build/
+
+# Ignore dependency artifacts
+/local/
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+
+# Ignore logs and process ID files
+/logs/
+*.log
+*.pid
+
+# Ignore Starlet server files
+starlet.sock
+
+# Ignore editor and OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Ignore Python cache files
+__pycache__/
+
+venv
